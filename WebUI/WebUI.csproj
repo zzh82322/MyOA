@@ -58,6 +58,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site1.Master" />
+    <Content Include="Static\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Static\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Static\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Static\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Static\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Static\ALTE\dist\fonts\fontawesome-webfont.eot" />
+    <Content Include="Static\ALTE\dist\fonts\fontawesome-webfont.svg" />
+    <Content Include="Static\ALTE\dist\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Static\ALTE\dist\fonts\fontawesome-webfont.woff" />
+    <Content Include="Static\ALTE\dist\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Static\ALTE\dist\fonts\FontAwesome.otf" />
+    <Content Include="Static\ALTE\dist\fonts\ionicons.eot" />
+    <Content Include="Static\ALTE\dist\fonts\ionicons.svg" />
+    <Content Include="Static\ALTE\dist\fonts\ionicons.ttf" />
+    <Content Include="Static\ALTE\dist\fonts\ionicons.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -67,7 +82,95 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Static\bootstrap\css\bootstrap.css" />
+    <Content Include="Static\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Static\bootstrap\js\bootstrap.js" />
+    <Content Include="Static\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Static\bootstrap\js\npm.js" />
+    <Content Include="Static\ALTE\dist\css\AdminLTE.css" />
+    <Content Include="Static\ALTE\dist\css\AdminLTE.min.css" />
+    <Content Include="Static\ALTE\dist\css\font-awesome.css" />
+    <Content Include="Static\ALTE\dist\css\font-awesome.min.css" />
+    <Content Include="Static\ALTE\dist\css\ionicons.css" />
+    <Content Include="Static\ALTE\dist\css\ionicons.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\all-skins.css" />
+    <Content Include="Static\ALTE\dist\css\skins\all-skins.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-black-light.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-black-light.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-black.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-black.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-blue-light.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-blue-light.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-blue.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-blue.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-green-light.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-green-light.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-green.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-green.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-purple-light.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-purple-light.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-purple.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-purple.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-red-light.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-red-light.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-red.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-red.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-yellow-light.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-yellow-light.min.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-yellow.css" />
+    <Content Include="Static\ALTE\dist\css\skins\skin-yellow.min.css" />
+    <Content Include="Static\ALTE\dist\img\avatar.png" />
+    <Content Include="Static\ALTE\dist\img\avatar04.png" />
+    <Content Include="Static\ALTE\dist\img\avatar2.png" />
+    <Content Include="Static\ALTE\dist\img\avatar3.png" />
+    <Content Include="Static\ALTE\dist\img\avatar5.png" />
+    <Content Include="Static\ALTE\dist\img\boxed-bg.jpg" />
+    <Content Include="Static\ALTE\dist\img\boxed-bg.png" />
+    <Content Include="Static\ALTE\dist\img\credit\american-express.png" />
+    <Content Include="Static\ALTE\dist\img\credit\cirrus.png" />
+    <Content Include="Static\ALTE\dist\img\credit\mastercard.png" />
+    <Content Include="Static\ALTE\dist\img\credit\mestro.png" />
+    <Content Include="Static\ALTE\dist\img\credit\paypal.png" />
+    <Content Include="Static\ALTE\dist\img\credit\paypal2.png" />
+    <Content Include="Static\ALTE\dist\img\credit\visa.png" />
+    <Content Include="Static\ALTE\dist\img\default-50x50.gif" />
+    <Content Include="Static\ALTE\dist\img\icons.png" />
+    <Content Include="Static\ALTE\dist\img\loading\loading-spinner-blue.gif" />
+    <Content Include="Static\ALTE\dist\img\loading\loading-spinner-default.gif" />
+    <Content Include="Static\ALTE\dist\img\loading\loading-spinner-grey.gif" />
+    <Content Include="Static\ALTE\dist\img\loading\loading.gif" />
+    <Content Include="Static\ALTE\dist\img\photo1.png" />
+    <Content Include="Static\ALTE\dist\img\photo2.png" />
+    <Content Include="Static\ALTE\dist\img\photo3.jpg" />
+    <Content Include="Static\ALTE\dist\img\photo4.jpg" />
+    <Content Include="Static\ALTE\dist\img\user1-128x128.jpg" />
+    <Content Include="Static\ALTE\dist\img\user2-160x160.jpg" />
+    <Content Include="Static\ALTE\dist\img\user3-128x128.jpg" />
+    <Content Include="Static\ALTE\dist\img\user4-128x128.jpg" />
+    <Content Include="Static\ALTE\dist\img\user5-128x128.jpg" />
+    <Content Include="Static\ALTE\dist\img\user6-128x128.jpg" />
+    <Content Include="Static\ALTE\dist\img\user7-128x128.jpg" />
+    <Content Include="Static\ALTE\dist\img\user8-128x128.jpg" />
+    <Content Include="Static\ALTE\dist\js\app.js" />
+    <Content Include="Static\ALTE\dist\js\app.min.js" />
+    <Content Include="Static\ALTE\dist\js\app_iframe.js" />
+    <Content Include="Static\ALTE\dist\js\app_iframe.min.js" />
+    <Content Include="Static\ALTE\dist\js\demo.js" />
+    <Content Include="Static\ALTE\dist\js\pages\dashboard.js" />
+    <Content Include="Static\ALTE\dist\js\pages\dashboard2.js" />
+    <Content Include="Static\ALTE\plugins\fastclick\fastclick.js" />
+    <Content Include="Static\ALTE\plugins\fastclick\fastclick.min.js" />
+    <Content Include="Static\ALTE\plugins\jQueryUI\jquery-ui.js" />
+    <Content Include="Static\ALTE\plugins\jQueryUI\jquery-ui.min.js" />
+    <Content Include="Static\ALTE\plugins\jQuery\jquery-2.2.3.min.js" />
+    <Content Include="Static\ALTE\plugins\slimScroll\jquery.slimscroll.js" />
+    <Content Include="Static\ALTE\plugins\slimScroll\jquery.slimscroll.min.js" />
+    <Content Include="Static\Jquery\jquery-3.0.0.min.js" />
+    <Content Include="Views\calendar.html" />
     <Content Include="Views\Index.aspx" />
+    <Content Include="Views\index_iframe.html" />
+    <Content Include="Views\welcome_iframe.html" />
+    <Content Include="Views\widgets.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +196,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Static\NewFolder1\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
