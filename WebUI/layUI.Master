@@ -1,7 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="layUI.master.cs" Inherits="WebUI.layUI" %>
-
 <!DOCTYPE html>
-
 <html>
 <head  runat="server">
 <meta  charset="utf-8"/>
@@ -11,14 +9,10 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    
-        <asp:ContentPlaceHolder ID="body" runat="server">
-        
-        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="body" runat="server" />
+      
         <script src="../Static/layUI/layui.js"></script>
-        <asp:ContentPlaceHolder ID="scripEnd" runat="server">
-      </asp:ContentPlaceHolder>
-   
- 
+        <asp:ContentPlaceHolder ID="scripEnd" runat="server" />
+    
 </body>
 </html>
