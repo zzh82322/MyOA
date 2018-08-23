@@ -5,7 +5,7 @@
 <link href="../Static/metr/css/login-soft.css" rel="stylesheet" />
 <link href="../Static/metr/css/components-md.min.css" rel="stylesheet" />
 <link href="../Static/metr/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="../Static/Jquery/uniform/css/uniform.default.min.css" rel="stylesheet" />
+<link href="../Static/Jquery/uniform/css/uniform.default.min.css" rel="stylesheet" />
  
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
@@ -402,8 +402,8 @@
 <script src="../Static/Jquery/uniform/jquery.uniform.min.js"></script>
 <script src="../Static/Jquery/jquery.validate.min.js"></script>
 <script src="../Static/metr/js/app.min.js"></script>
-<script src="../Static/Web/js/modules/md5.js"></script>
-<%--<script src="../Static/Web/js/page/Login.js"></script>--%>
-<script src="../Static/metr/js/login-soft.js"></script>
+
+ <script src="../Static/Web/js/md5.js"></script>
+ <script src="../Static/Web/pages/Login/login-soft.js"></script>
  
 </asp:Content>
