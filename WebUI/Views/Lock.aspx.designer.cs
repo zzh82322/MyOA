@@ -10,6 +10,6 @@
 namespace WebUI.Views {
     
     
-    public partial class index {
+    public partial class Lock {
     }
 }

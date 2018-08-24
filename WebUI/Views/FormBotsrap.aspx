@@ -12,7 +12,7 @@
 <link href="../Static/Jquery/icheck/skins/all.css" rel="stylesheet" />
 
  <!--下拉控件样式-->
-    <link href="../Static/Jquery/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
+<link href="../Static/Jquery/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
  

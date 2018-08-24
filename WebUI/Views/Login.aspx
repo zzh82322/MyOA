@@ -1,21 +1,18 @@
 ﻿<%@ Page Title=""  Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebUI.Views.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-<link href="../Static/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-<link href="../Static/metr/css/login-soft.css" rel="stylesheet" />
-<link href="../Static/metr/css/components-md.min.css" rel="stylesheet" />
-<link href="../Static/metr/css/font-awesome.min.css" rel="stylesheet" />
-<link href="../Static/Jquery/uniform/css/uniform.default.min.css" rel="stylesheet" />
- 
+ <link href="../Static/themes/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="../Static/themes/plugins/font-ico/css/font-awesome.min.css" rel="stylesheet" />
+<link href="../Static/themes/plugins/uniform/css/uniform.default.min.css" rel="stylesheet" />
+ <link href="../Static/themes/admin1/global/css/components-md.min.css" rel="stylesheet" />
+
+ <link href="../Static/themes/admin1/pages/Login/css/login-soft.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
 <div class="login" >
- 
     <div class="logo">
-    <a href="index.html"> <img src="../Static/metronic/pages/img/logo-big.png" alt="" /> </a>
-
+       <a href="index.html"> <img src="../Static/metronic/pages/img/logo-big.png" alt="" /> </a>
     </div>
- 
 <div class="content">
    
     <form class="login-form" action="index.html" method="post">
@@ -395,15 +392,16 @@
 </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="scripEnd" runat="server">
-<script src="../Static/Jquery/jquery.min.js"></script>
-<script src="../Static/Jquery/backstretch.min.js"></script>
-<script src="../Static/Jquery/select2/js/select2.min.js"></script>
-<script src="../Static/bootstrap/js/bootstrap.min.js"></script>
-<script src="../Static/Jquery/uniform/jquery.uniform.min.js"></script>
-<script src="../Static/Jquery/jquery.validate.min.js"></script>
-<script src="../Static/metr/js/app.min.js"></script>
 
- <script src="../Static/Web/js/md5.js"></script>
- <script src="../Static/Web/pages/Login/login-soft.js"></script>
+<script src="../Static/themes/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="../Static/themes/plugins/backstretch.min.js"></script>
+<script src="../Static/themes/plugins/select2/js/select2.min.js"></script>
+<script src="../Static/themes/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="../Static/themes/plugins/uniform/jquery.uniform.min.js"></script>
+<script src="../Static/themes/plugins/jquery.validate.min.js"></script>
+<script src="../Static/themes/plugins/md5.js"></script>
+
+<script src="../Static/themes/admin1/global/js/app.js"></script>
+<script src="../Static/themes/admin1/pages/Login/js/login-soft.js"></script>
  
 </asp:Content>
