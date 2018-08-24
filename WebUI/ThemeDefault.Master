@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ThemeDefault.master.cs" Inherits="WebUI.ThemeDefault" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta  charset="utf-8"/>
+    <title><%:Page.Title %></title>
+    
+<link href="/Static/themes/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="Static/themes/plugins/font-ico/css/font-awesome.css" rel="stylesheet" />
+<link href="/Static/themes/plugins/uniform/css/uniform.default.min.css" rel="stylesheet" />
+<link href="/Static/themes/Default/global/css/components.min.css" rel="stylesheet" />
+    <link href="/Static/themes/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
+    <link href="/Static/themes/plugins/icheck/skins/all.css" rel="stylesheet" />
+    <link href="/Static/themes/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" />
+    <link href="/Static/themes/Default/global/css/plugins.css" rel="stylesheet" />
+<asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+
+<asp:ContentPlaceHolder ID="body" runat="server" />
+
+<script src="/Static/themes/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="/Static/themes/plugins/backstretch.min.js"></script>
+<script src="/Static/themes/plugins/select2/js/select2.min.js"></script>
+<script src="/Static/themes/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/Static/themes/plugins/uniform/jquery.uniform.min.js"></script>
+<script src="/Static/themes/plugins/jquery.validate.min.js"></script>
+    <script src="/Static/themes/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="/Static/themes/plugins/icheck/icheck.min.js"></script>      
+ 
+    <script src="/Static/themes/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
+<script src="/Static/themes/plugins/md5.js"></script>
+<script src="/Static/themes/Default/global/js/app.js"></script>
+
+<asp:ContentPlaceHolder ID="scripEnd" runat="server" />
+
+</body>
+</html>

@@ -11,8 +11,8 @@
   
     <link href="../Static/themes/plugins/font-ico/css/font-awesome.min.css" rel="stylesheet" />
 
-    <link href="../Static/themes/admin1/pages/index/css/AdminLTE.css" rel="stylesheet" />
-    <link href="../Static/themes/admin1/pages/index/css/skins/all-skins.min.css" rel="stylesheet" />
+    <link href="../Static/themes/Default/pages/index/css/AdminLTE.css" rel="stylesheet" />
+    <link href="../Static/themes/Default/pages/index/css/skins/all-skins.min.css" rel="stylesheet" />
  
     <style type="text/css">
         html {
@@ -752,10 +752,10 @@
     <script src="../Static/themes/plugins/fastclick/fastclick.min.js"></script>
  
  
-    <script src="../Static/themes/admin1/pages/index/js/app.js"></script>
+    <script src="../Static/themes/Default/pages/index/js/app.js"></script>
  
-    <script src="../Static/themes/admin1/pages/index/js/demo.js"></script>
-    <script src="../Static/themes/admin1/pages/index/js/app_iframe.js"></script>
+    <script src="../Static/themes/Default/pages/index/js/demo.js"></script>
+    <script src="../Static/themes/Default/pages/index/js/app_iframe.js"></script>
 
 <!--<script src="../Static/ALTE/dist/js/jquery.blockui.min.js"></script>
 <script src="../Static/ALTE/dist/js/appx.js"></script>

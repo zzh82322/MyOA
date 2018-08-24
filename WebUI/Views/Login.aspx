@@ -1,17 +1,11 @@
-﻿<%@ Page Title=""  Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebUI.Views.Login" %>
+﻿<%@ Page Title=""  Language="C#" MasterPageFile="~/ThemeDefault.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebUI.Views.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
- <link href="../Static/themes/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-<link href="../Static/themes/plugins/font-ico/css/font-awesome.min.css" rel="stylesheet" />
-<link href="../Static/themes/plugins/uniform/css/uniform.default.min.css" rel="stylesheet" />
- <link href="../Static/themes/admin1/global/css/components-md.min.css" rel="stylesheet" />
-
- <link href="../Static/themes/admin1/pages/Login/css/login-soft.css" rel="stylesheet" />
+ <link href="/Static/themes/Default/pages/Login/css/login-soft.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
 <div class="login" >
     <div class="logo">
-       <a href="index.html"> <img src="../Static/metronic/pages/img/logo-big.png" alt="" /> </a>
+       <a href="index.html"> <img src="/Static/metronic/pages/img/logo-big.png" alt="" /> </a>
     </div>
 <div class="content">
    
@@ -393,15 +387,6 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="scripEnd" runat="server">
 
-<script src="../Static/themes/plugins/jQuery/jquery-2.2.3.min.js"></script>
-<script src="../Static/themes/plugins/backstretch.min.js"></script>
-<script src="../Static/themes/plugins/select2/js/select2.min.js"></script>
-<script src="../Static/themes/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="../Static/themes/plugins/uniform/jquery.uniform.min.js"></script>
-<script src="../Static/themes/plugins/jquery.validate.min.js"></script>
-<script src="../Static/themes/plugins/md5.js"></script>
-
-<script src="../Static/themes/admin1/global/js/app.js"></script>
-<script src="../Static/themes/admin1/pages/Login/js/login-soft.js"></script>
+<script src="/Static/themes/Default/pages/Login/js/login-soft.js"></script>
  
 </asp:Content>
