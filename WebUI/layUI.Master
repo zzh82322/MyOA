@@ -4,16 +4,17 @@
 <head  runat="server">
 <meta  charset="utf-8"/>
     <title><%:Page.Title %></title>
-      <link rel="stylesheet" href="~/Static/layUI/css/layui.css">
+  
+    <link href="/Static/themes/plugins/layUI/css/layui.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-      <form runat="server">
+   
         <asp:ContentPlaceHolder ID="body" runat="server" />
-          <script src="~/Static/themes/plugins/layUI/layui.js"></script>
+          <script src="/Static/themes/plugins/layUI/layui.js"></script>
        
         <asp:ContentPlaceHolder ID="scripEnd" runat="server" />
-    </form>
+ 
 </body>
 </html>

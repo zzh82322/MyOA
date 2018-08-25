@@ -58,17 +58,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site1.Master" />
+    <Content Include="Static\themes\Default\global\css\adminPage.css" />
     <Content Include="Static\themes\Default\global\media\bg\1.jpg" />
     <Content Include="Static\themes\Default\global\media\bg\2.jpg" />
     <Content Include="Static\themes\Default\global\media\bg\3.jpg" />
     <Content Include="Static\themes\Default\global\media\bg\4.jpg" />
-    <Content Include="Static\themes\Default\pages\FormBotsrap\form-samples.js" />
-    <Content Include="Static\themes\Default\pages\FormBotsrap\form-samples.min.js" />
-    <Content Include="Static\themes\Default\pages\FormMetronic\FormMetronic.js" />
+    <Content Include="Static\themes\Default\pages\FormBotsrap\js\dateTimeBind.js" />
+    <Content Include="Static\themes\Default\pages\FormBotsrap\js\iCheckBind.js" />
+    <Content Include="Static\themes\Default\pages\FormBotsrap\js\maxLengthBind.js" />
+    <Content Include="Static\themes\Default\pages\FormBotsrap\js\selectBind.js" />
+    <Content Include="Static\themes\Default\pages\FormMetronic\main.js" />
+    <Content Include="Static\themes\Default\pages\index\main.js" />
     <Content Include="Static\themes\Default\pages\layUITest\layUITest.js" />
     <Content Include="Static\themes\Default\pages\layUITest\layUITest2.js" />
+    <Content Include="Static\themes\Default\pages\Lock\css\lock-2.css" />
     <Content Include="Static\themes\Default\pages\Lock\main.js" />
-    <Content Include="Static\themes\Default\pages\WebForm1\WebForm1.js" />
+    <Content Include="Static\themes\Default\pages\FormLayUi\main.js" />
     <Content Include="Static\themes\plugins\layUI\font\iconfont.eot" />
     <Content Include="Static\themes\plugins\layUI\font\iconfont.svg" />
     <Content Include="Static\themes\plugins\layUI\font\iconfont.ttf" />
@@ -630,7 +635,6 @@
     <Content Include="Static\themes\Default\global\js\app.min.js" />
     <Content Include="Static\themes\Default\global\js\demo.js" />
     <Content Include="Static\themes\Default\global\js\layout.js" />
-    <Content Include="Static\themes\Default\global\js\login-soft.js" />
     <Content Include="Static\themes\plugins\md5.js" />
     <Content Include="Static\themes\Default\global\js\metronic.js" />
     <Content Include="Static\themes\Default\pages\Login\css\login-soft.css" />
@@ -1227,8 +1231,6 @@
     <Content Include="Static\themes\Default\pages\index\js\app_iframe.js" />
     <Content Include="Static\themes\Default\pages\index\js\app_iframe.min.js" />
     <Content Include="Static\themes\Default\pages\index\js\demo.js" />
-    <Content Include="Static\themes\Default\pages\index\js\pages\dashboard.js" />
-    <Content Include="Static\themes\Default\pages\index\js\pages\dashboard2.js" />
     <Content Include="Static\themes\plugins\bootstrap\css\bootstrap-theme.css" />
     <Content Include="Static\themes\plugins\bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="Static\themes\plugins\bootstrap\css\bootstrap.css" />
@@ -1383,20 +1385,6 @@
     <Content Include="Static\themes\plugins\uniform\images\sprite_original.png" />
     <Content Include="Static\themes\plugins\uniform\jquery.uniform.js" />
     <Content Include="Static\themes\plugins\uniform\jquery.uniform.min.js" />
-    <Content Include="Static\Web\js\md5.js" />
-    <Content Include="Static\Web\pages\FormBotsrap\form-samples.js" />
-    <Content Include="Static\Web\pages\FormBotsrap\form-samples.min.js" />
-    <Content Include="Static\Web\pages\FormMetronic\FormMetronic.js" />
-    <Content Include="Static\Web\pages\layUITest\layUITest2.js" />
-    <Content Include="Static\Web\pages\layUITest\layUITest.js" />
-    <Content Include="Static\Web\pages\Lock\main.js" />
-    <Content Include="Static\Web\pages\Login\login-soft.js" />
-    <Content Include="Static\Web\pages\Login\Login.js" />
-    <Content Include="Static\Web\pages\WebForm1\WebForm1.js" />
-    <Content Include="Static\Web\media\bg\1.jpg" />
-    <Content Include="Static\Web\media\bg\2.jpg" />
-    <Content Include="Static\Web\media\bg\3.jpg" />
-    <Content Include="Static\Web\media\bg\4.jpg" />
     <Content Include="Views\calendar.html" />
     <Content Include="Views\FormBotsrap.aspx" />
     <Content Include="Views\FormMetronic.aspx" />
@@ -1405,7 +1393,7 @@
     <Content Include="Views\layUITest.aspx" />
     <Content Include="Views\Lock.aspx" />
     <Content Include="Views\Login.aspx" />
-    <Content Include="Views\WebForm1.aspx" />
+    <Content Include="Views\FormLayUi.aspx" />
     <Content Include="Views\welcome_iframe.html" />
     <Content Include="Views\widgets.html" />
     <Content Include="Web.config" />
@@ -1478,26 +1466,18 @@
     <Compile Include="Views\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Views\FormLayUi.aspx.cs">
+      <DependentUpon>FormLayUi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Views\FormLayUi.aspx.designer.cs">
+      <DependentUpon>FormLayUi.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Static\themes\Default\pages\Lock\css\" />
     <Folder Include="Static\themes\Default\pages\Lock\img\" />
-    <Folder Include="Static\Web\css\" />
-    <Folder Include="Static\Web\font\" />
-    <Folder Include="Static\Web\images\" />
-    <Folder Include="Static\Web\img\" />
-    <Folder Include="Static\Web\js\modules\" />
-    <Folder Include="Static\Web\pages\Lock\css\" />
-    <Folder Include="Static\Web\pages\Lock\img\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

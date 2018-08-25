@@ -11,5 +11,6 @@
     }).use('layUITest'); //加载入口
  
  </script>--%>
-    <script src="../Static/WebJS/page/layUITest2.js" />
+ 
+    <script src="../Static/themes/Default/pages/layUITest/layUITest2.js"></script>
 </asp:Content>

@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
 <div class="login" >
     <div class="logo">
-       <a href="index.html"> <img src="/Static/metronic/pages/img/logo-big.png" alt="" /> </a>
+       <a href="index.html"> <img src="../Static/themes/Default/global/img/logo-big.png" alt="" /> </a>
     </div>
 <div class="content">
    

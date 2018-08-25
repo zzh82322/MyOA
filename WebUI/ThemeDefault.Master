@@ -8,11 +8,11 @@
 <link href="/Static/themes/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 <link href="Static/themes/plugins/font-ico/css/font-awesome.css" rel="stylesheet" />
 <link href="/Static/themes/plugins/uniform/css/uniform.default.min.css" rel="stylesheet" />
-<link href="/Static/themes/Default/global/css/components.min.css" rel="stylesheet" />
-    <link href="/Static/themes/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
-    <link href="/Static/themes/plugins/icheck/skins/all.css" rel="stylesheet" />
-    <link href="/Static/themes/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" />
-    <link href="/Static/themes/Default/global/css/plugins.css" rel="stylesheet" />
+<link href="/Static/themes/Default/global/css/components.css" rel="stylesheet" />
+<link href="/Static/themes/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
+<link href="/Static/themes/plugins/icheck/skins/all.css" rel="stylesheet" />
+<link href="/Static/themes/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" />
+<link href="/Static/themes/Default/global/css/plugins.css" rel="stylesheet" />
 <asp:ContentPlaceHolder ID="head" runat="server" />
 </head>
 <body>

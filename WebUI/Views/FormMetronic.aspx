@@ -1,14 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="FormMetronic.aspx.cs" Inherits="WebUI.Views.FormMetronic" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ThemeDefault.Master" AutoEventWireup="true" CodeBehind="FormMetronic.aspx.cs" Inherits="WebUI.Views.FormMetronic" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-<link href="../Static/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-<link href="../Static/metr/css/login-soft.css" rel="stylesheet" />
-<link href="../Static/metr/css/components-md.min.css" rel="stylesheet" />
-<link href="../Static/metr/css/font-awesome.min.css" rel="stylesheet" />
-<link href="../Static/Jquery/uniform/css/uniform.default.min.css" rel="stylesheet" />
-<link href="../Static/Jquery/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" />
+ 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
-<div class="portlet light portlet-fit portlet-form bordered">
+<div class="portlet light portlet-fit portlet-form ">
     <div class="portlet-title">
         <div class="caption">
             <i class=" icon-layers font-green"></i>
@@ -313,13 +308,7 @@
 </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="scripEnd" runat="server">
-    <script src="../Static/Jquery/jquery.min.js"></script>
-<script src="../Static/Jquery/backstretch.min.js"></script>
-<script src="../Static/Jquery/select2/js/select2.min.js"></script>
-<script src="../Static/bootstrap/js/bootstrap.min.js"></script>
-<script src="../Static/Jquery/uniform/jquery.uniform.min.js"></script>
-<script src="../Static/Jquery/jquery.validate.min.js"></script>
-<script src="../Static/metr/js/app.min.js"></script>
-
-  <script src="../Static/Web/pages/FormMetronic/FormMetronic.js"></script>
+ 
+ <script src="../Static/themes/Default/pages/FormMetronic/main.js"></script>
+ 
 </asp:Content>
