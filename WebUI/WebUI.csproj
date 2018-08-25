@@ -63,10 +63,16 @@
     <Content Include="Static\themes\Default\global\media\bg\2.jpg" />
     <Content Include="Static\themes\Default\global\media\bg\3.jpg" />
     <Content Include="Static\themes\Default\global\media\bg\4.jpg" />
+    <Content Include="Static\themes\Default\pages\FormBotsrap\js\colorPickerBind.js" />
+    <Content Include="Static\themes\Default\pages\FormBotsrap\js\contextMenuBind.js" />
     <Content Include="Static\themes\Default\pages\FormBotsrap\js\dateTimeBind.js" />
     <Content Include="Static\themes\Default\pages\FormBotsrap\js\iCheckBind.js" />
+    <Content Include="Static\themes\Default\pages\FormBotsrap\js\inputMask.js" />
     <Content Include="Static\themes\Default\pages\FormBotsrap\js\maxLengthBind.js" />
     <Content Include="Static\themes\Default\pages\FormBotsrap\js\selectBind.js" />
+    <Content Include="Static\themes\Default\pages\FormBotsrap\js\switchButtonBind.js" />
+    <Content Include="Static\themes\Default\pages\FormBotsrap\js\tagsBind.js" />
+    <Content Include="Static\themes\Default\pages\FormBotsrap\js\touchSpinBind.js" />
     <Content Include="Static\themes\Default\pages\FormMetronic\main.js" />
     <Content Include="Static\themes\Default\pages\index\main.js" />
     <Content Include="Static\themes\Default\pages\layUITest\layUITest.js" />
